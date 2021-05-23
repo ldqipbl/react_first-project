@@ -1,0 +1,24 @@
+/* footer */
+footer {
+        display: grid;
+        grid-template-columns: 25% 75%;
+}
+.footer_nav {
+        background-color: black;
+        padding: 5px 0;
+        color: #fff;
+}
+.footer_nav .nav_toolbar_network {
+        width: 100px;
+        border-top: solid 2px #FFC600;
+        margin-top: 20px;
+}
+.footer_content {
+        color: white;
+        background-image: url(../../img/header/home_bg.png);
+        background-repeat: round;
+}
+.nav_toolbar_network img {
+	width: 20px;
+	height: 20px;
+}

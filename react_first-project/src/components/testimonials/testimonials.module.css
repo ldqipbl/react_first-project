@@ -1,0 +1,19 @@
+/* testimonials */
+.testimonials {
+        padding: 10px 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: #000;
+        color: #fff;
+}
+.testimonials_content_text {
+        padding: 10px 40px;
+}
+.testimonials_photo {
+        text-align: center;
+        margin-top: 50px;
+}
+.testimonials_photo img {
+	width: 100px;
+	height: 100px;
+}

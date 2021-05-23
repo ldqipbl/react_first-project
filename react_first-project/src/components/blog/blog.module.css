@@ -1,0 +1,16 @@
+/* blog */
+.blog {
+        padding: 10px 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+}
+.blog_nav li {
+        color: #000;
+}
+.blog_nav li:hover {
+        color: #FFC600;
+}
+.blog_content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+}

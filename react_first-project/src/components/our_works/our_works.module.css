@@ -1,0 +1,13 @@
+/* our_works */
+.our_works {
+        padding: 10px 40px;
+}
+.our_works li {
+        display: inline-block;
+        margin: 0 10px;
+}
+.our_works .content {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: repeat(4, 1fr);
+}
