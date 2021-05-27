@@ -7,7 +7,7 @@ const Contact_us = () => {
 		<div className={classes.contact_us}>
 			<div className={classes.contact_us_map}></div>
 			<div className={classes.contact_us_content}>
-				<h2><span className="yellou">C</span>ontact Us</h2>
+				<h2><span className="yellou">C</span>ontact Us<a name="contact"></a></h2>
 				<form>
 					<input className={classes.contact_us_content_text} type="text" placeholder="Your Name" />
 					<input className={classes.contact_us_content_tel} type="tel" placeholder="Mobile" />

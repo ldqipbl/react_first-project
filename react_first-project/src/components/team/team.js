@@ -8,7 +8,7 @@ import teamImg4 from '../../img/team/team_img_4.png';
 const Team = () => {
 	return (
 		<div className={classes.team}>
-			<h2><span className="yellou">O</span>ur Team</h2>
+			<h2><span className="yellou">O</span>ur Team<a name="team"></a></h2>
 			<div className={classes.team_content}>
 				<div className={classes.team_top_block}>
 					<p>

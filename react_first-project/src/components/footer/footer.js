@@ -12,14 +12,14 @@ const Footer = () => {
 							<h1><span className="yellou">S</span>ublime</h1>
 						</div>
 					</li>
-					<a href="#b"><li>home</li></a>
-					<a href="#b"><li>about sublime</li></a>
-					<a href="#b"><li>our works</li></a>
-					<a href="#b"><li>services</li></a>
-					<a href="#b"><li>team</li></a>
-					<a href="#b"><li>testimonials</li></a>
-					<a href="#b"><li>blog</li></a>
-					<a href="#b"><li>contact us</li></a>
+					<a href="#home"><li>home</li></a>
+					<a href="#about"><li>about sublime</li></a>
+					<a href="#our_works"><li>our works</li></a>
+					<a href="#services"><li>services</li></a>
+					<a href="#team"><li>team</li></a>
+					<a href="#testimonials"><li>testimonials</li></a>
+					<a href="#blog"><li>blog</li></a>
+					<a href="#contact"><li>contact us</li></a>
 					<li>
 						<NavToolbarNetwork />
 					</li>

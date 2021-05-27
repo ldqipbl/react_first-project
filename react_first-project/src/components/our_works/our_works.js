@@ -13,7 +13,7 @@ import img7 from '../../img/projects/project_img_7.png';
 const Our_works = () => {
 	return (
 		<div className={classes.our_works}>
-			<h2><span className="yellou">F</span>eatured Projects</h2>
+			<h2><span className="yellou">F</span>eatured Projects<a name="our_works"></a></h2>
 			<div className={classes.navi}>
 				<ul>
 					<li>all works</li>

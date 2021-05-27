@@ -6,7 +6,7 @@ const Testimonials = () => {
 	return (
 		<div className={classes.testimonials}>
 			<div className={classes.testimonials_content}>
-				<h2><span className="yellou">T</span>estimonials</h2>
+				<h2><span className="yellou">T</span>estimonials<a name="testimonials"></a></h2>
 				<div className={classes.testimonials_content_text}>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 

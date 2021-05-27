@@ -9,6 +9,7 @@ const About_sublime = () => {
 				<h2>
 					<span className="gray">about</span><br />
 					<span className="yellou">s</span>ublime
+					<a name="about"></a>
 				</h2>
 				<div className={classes.block}>
 					<p>

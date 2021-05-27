@@ -1,4 +1,5 @@
 import './App.css';
+import {BrowserRouter} from  'react-router-dom';
 import Home from './components/home/home';
 import AboutSublime from './components/about_sublime/about_sublime';
 import OurWorks from './components/our_works/our_works';
@@ -14,18 +15,20 @@ import Footer from './components/footer/footer';
 const App = () => {
 	return (
 		<div class="conteiner">
-			<main>
-				<Home />
-				<AboutSublime />
-				<OurWorks />
-                                <Strategic />
-				<ServicesProvided />
-                                <Team />
-				<Testimonials />
-                                <Blog />
-                                <ContactUs />
-				<Footer />
-                        </main>
+			<BrowserRouter>
+				<main>
+					<Home />
+					<AboutSublime />
+					<OurWorks />
+					<Strategic />
+					<ServicesProvided />
+					<Team />
+					<Testimonials />
+					<Blog />
+					<ContactUs />
+					<Footer />
+				</main>
+			</BrowserRouter>
                 </div>
 	);
 }

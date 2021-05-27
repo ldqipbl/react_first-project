@@ -4,7 +4,7 @@ import classes from './services_provided.module.css';
 const Services_provided = () => {
 	return (
 		<div className={classes.services_provided}>
-			<h2><span className="yellou">S</span>ervices Provided</h2>
+			<h2><span className="yellou">S</span>ervices Provided<a name="services"></a></h2>
 			<div className={classes.services_provided_block}>
 				<div>
 					<p>App Development</p>
